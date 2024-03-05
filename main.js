@@ -20,7 +20,6 @@ const inputNombre = document.createElement("input");
     inputNombre.setAttribute("type", "text");
     inputNombre.setAttribute("placeholder", "Nombre Completo");
     inputNombre.setAttribute("name","Nombre Completo");
-    inputNombre.setAttribute("required","");
 
 const labelMail = document.createElement("label");
 
@@ -33,7 +32,6 @@ const inputMail = document.createElement("input");
     inputMail.setAttribute("type", "email");
     inputMail.setAttribute("placeholder", "mail@gmail.com");
     inputMail.setAttribute("name","mail");
-    inputMail.setAttribute("required","");
 
 const labelOpinion = document.createElement("label");
 
