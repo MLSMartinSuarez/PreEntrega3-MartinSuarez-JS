@@ -1,0 +1,89 @@
+/* -------------------- RESET ------------------------------ */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-image: url('https://static-cdn.jtvnw.net/jtv_user_pictures/3e1680b8-ce78-46d3-a228-2d5325c3519f-profile_banner-480.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.911);
+}
+
+/* -------------------- BASE ------------------------------ */
+
+.formulario{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: large;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    color: rgb(229, 245, 13);
+}
+
+.hover{
+    color: rgb(229, 245, 13);
+    transition: all 0.3s ease-in-out ;
+}
+
+/* -------------------- INPUTS ------------------------------ */
+
+.dataDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    margin: 20px 120px 0px 120px;
+    padding: 10px;
+    background-color: rgba(255, 255, 0, 0.315);
+}
+
+/* -------------------- FORMULARIO ------------------------------ */
+
+#nombre{
+    color: black;
+    font-weight: bold;
+    background-color: rgb(253, 253, 155);
+}
+
+#mail{
+    color: black;
+    font-weight: bold;
+    background-color: rgb(253, 253, 155);
+}
+
+::placeholder{
+    color: rgba(126, 121, 121, 0.459);
+}
+
+#seleccion{
+    color: black;
+    font-weight: bold;
+    background-color: rgb(253, 253, 155);
+}
+
+#boton{
+    padding: 10px 50px 10px 50px;
+    margin-top: 40px;
+    background-color: yellow;
+    font-weight: bold;
+}
